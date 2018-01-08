@@ -1,0 +1,28 @@
+.images{
+	margin:20px;
+}
+
+.col-sm-4{
+	margin-top:20px;
+}
+
+
+.list-group.second > .list-group-item:first-child{
+	background-color: rgb(220,220,240);
+}
+
+@media screen and (max-width: 768px) {
+
+#categorias-responsive{
+            display:none;
+      }  
+}
+
+@media only screen and (max-width: 991px) {
+    /* For mobile phones: */
+    .col-sm-4{
+	margin-top:20px;
+	display:inline-block;
+	width:40%;
+}
+}
